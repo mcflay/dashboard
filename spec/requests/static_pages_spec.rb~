@@ -21,4 +21,10 @@ describe "StaticPages" do
       page.should have_selector("h1", text: "About us")
     end
   end
+  describe "Contact page" do
+    it "should have the 'contact' content" do
+      visit contact_path
+      page.should have_selector("h1", text: "Contact")
+    end
+  end
 end

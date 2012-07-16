@@ -1,0 +1,12 @@
+<div id="header">
+  <div>
+    <h2>DASHBOARD App</h2>
+    <ul>
+      <li><%= link_to 'home', root_path %></li>
+      <li><%= link_to 'about', about_path %></li>
+      <li><%= link_to 'contact', contact_path %></li>
+      <li><a href="#">sign in</a></li>
+      <li><a href="#">sign up</a></li>
+    </ul>
+  </div>
+</div>
