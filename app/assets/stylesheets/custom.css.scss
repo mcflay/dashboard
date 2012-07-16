@@ -1,0 +1,35 @@
+body { 
+margin: 0px;
+padding: 0px;
+font-family: 'Verdana';
+}
+a {
+color: white;
+text-decoration: none;
+  &:hover {
+    color:red;
+  }
+}
+#header {
+  width:100%;
+  background-color:black;
+  div {
+    color: white;
+    width:1000px;
+    margin:0px auto;
+    height:40px;
+    ul,h2,li {
+      display:inline;
+    }
+  }
+}
+
+#content {
+margin: 0 auto;
+width:1000px;
+}
+
+#footer {
+margin: 0 auto;
+width:1000px;
+}
